@@ -23,16 +23,16 @@ This works:
 $$\sum_{a_i\in A_j}f(a_i)$$
 
 but this fails:
-$$\sum_{i=1}^n \lVert \bar{X}^T\theta\rVert_\infty$$
+$$\sum_{i=1}^n \lVert a_i \Vert_\infty$$
 
 This is because the source:
 ```
-$$\sum_{i=1}^n \lVert \bar{X}^T\theta\rVert_\infty$$
+$$\sum_{i=1}^n \lVert a_i \Vert_\infty$$
 ```
 
 is converted as:
 ```
-$$\sum<em>{i=1}^n \lVert \bar{X}^T\theta\rVert</em>\infty$$
+$$\sum<em>{i=1}^n \lVert a_i \Vert</em>\infty$$
 ```
 
 </textarea>
